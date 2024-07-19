@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+#Script von Tatjana Baier 06/2024
+
+export PGPASSWORD='PASSWORD'
+
+psql -h 172.31.19.206 -U USERNAME -d rp1 -c "\\copy tbl_bmp FROM '/home/ubuntu/data/bmp180/bmp180' DELIMITER ';'"
+psql -h 172.31.19.206 -U USERNAME -d rp1 -c "\\copy tbl_dht11 FROM '/home/ubuntu/data/dht11/dht11' DELIMITER ';'"
+psql -h 172.31.19.206 -U USERNAME -d rp1 -c "\\copy tbl_pir FROM '/home/ubuntu/data/pir/pir' DELIMITER ';'"
+psql -h 172.31.19.206 -U USERNAME -d rp1 -c "\\copy tbl_resistor FROM '/home/ubuntu/data/resistor/resistor' DELIMITER ';'"
+psql -h 172.31.19.206 -U USERNAME -d rp1 -c "\\copy tbl_sound FROM '/home/ubuntu/data/sound' DELIMITER ';'"
+psql -h 172.31.19.206 -U USERNAME -d rp1 -c "\\copy tbl_vibration FROM '/home/ubuntu/data/vibration/vibration' DELIMITER ';'"
