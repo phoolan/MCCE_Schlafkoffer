@@ -1,6 +1,9 @@
 # MCCE_Schlafkoffer
 Schlafkoffer / Mobiles Schlaflabor
 
+# DOI: 10.5281/zenodo.14059153
+# Lizenz: GPL-3.0
+
 Im zuge des Studiums MCCE an der FH Burgenland, habe ich einen ersten Entwurf eines "Schlafkoffers" (mobiles Schlaflabor) zum Raummonitoring entwickelt.
 Dieser ist mit Sensoren ausgestattet und die Daten die gemessen werden können mittels Report Script ausgewertet werden.
 Das Reportscript prüft die Werte und erstellt eine Ersteinschätzung bez. Schlafqualität auf Basis der Raummessungen.
